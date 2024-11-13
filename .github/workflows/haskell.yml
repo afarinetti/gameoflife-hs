@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        ghc-version: ['9', '9.4']
+        ghc-version: ['latest', '9.4']
 
     steps:
       - uses: actions/checkout@v4
